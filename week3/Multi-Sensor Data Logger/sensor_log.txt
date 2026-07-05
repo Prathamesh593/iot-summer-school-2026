@@ -1,0 +1,139 @@
+----- SENSOR DATA -----
+Temp: 24.00 C
+Humidity: 40.00 %
+Light: 24 %
+Distance: 401.16 cm
+-----------------------
+
+----- SENSOR DATA -----
+Temp: 24.00 C
+Humidity: 40.00 %
+Light: 24 %
+Distance: 401.16 cm
+-----------------------
+
+----- SENSOR DATA -----
+Temp: 24.00 C
+Humidity: 40.00 %
+Light: 24 %
+Distance: 401.14 cm
+-----------------------
+
+----- SENSOR DATA -----
+Temp: 24.00 C
+Humidity: 40.00 %
+Light: 24 %
+Distance: 401.14 cm
+-----------------------
+
+----- SENSOR DATA -----
+Temp: 24.00 C
+Humidity: 40.00 %
+Light: 24 %
+Distance: 401.14 cm
+-----------------------
+
+----- SENSOR DATA -----
+Temp: 24.00 C
+Humidity: 40.00 %
+Light: 24 %
+Distance: 401.16 cm
+-----------------------
+
+----- SENSOR DATA -----
+Temp: 24.00 C
+Humidity: 40.00 %
+Light: 24 %
+Distance: 401.24 cm
+-----------------------
+
+----- SENSOR DATA -----
+Temp: 24.00 C
+Humidity: 40.00 %
+Light: 24 %
+Distance: 401.14 cm
+-----------------------
+
+----- SENSOR DATA -----
+Temp: 24.00 C
+Humidity: 40.00 %
+Light: 24 %
+Distance: 401.14 cm
+-----------------------
+
+----- SENSOR DATA -----
+Temp: 24.00 C
+Humidity: 40.00 %
+Light: 24 %
+Distance: 401.14 cm
+-----------------------
+
+----- SENSOR DATA -----
+Temp: 24.00 C
+Humidity: 40.00 %
+Light: 24 %
+Distance: 401.14 cm
+-----------------------
+
+----- SENSOR DATA -----
+Temp: 24.00 C
+Humidity: 40.00 %
+Light: 24 %
+Distance: 401.16 cm
+-----------------------
+
+----- SENSOR DATA -----
+Temp: 24.00 C
+Humidity: 40.00 %
+Light: 24 %
+Distance: 401.14 cm
+-----------------------
+
+----- SENSOR DATA -----
+Temp: 24.00 C
+Humidity: 40.00 %
+Light: 24 %
+Distance: 401.14 cm
+-----------------------
+
+----- SENSOR DATA -----
+Temp: 24.00 C
+Humidity: 40.00 %
+Light: 24 %
+Distance: 401.14 cm
+-----------------------
+
+----- SENSOR DATA -----
+Temp: 24.00 C
+Humidity: 40.00 %
+Light: 24 %
+Distance: 401.16 cm
+-----------------------
+
+----- SENSOR DATA -----
+Temp: 24.00 C
+Humidity: 40.00 %
+Light: 24 %
+Distance: 401.16 cm
+-----------------------
+
+----- SENSOR DATA -----
+Temp: 24.00 C
+Humidity: 40.00 %
+Light: 24 %
+Distance: 401.14 cm
+-----------------------
+
+----- SENSOR DATA -----
+Temp: 24.00 C
+Humidity: 40.00 %
+Light: 24 %
+Distance: 401.14 cm
+-----------------------
+
+----- SENSOR DATA -----
+Temp: 24.00 C
+Humidity: 40.00 %
+Light: 24 %
+Distance: 401.14 cm
+-----------------------
