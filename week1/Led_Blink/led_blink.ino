@@ -1,15 +1,18 @@
-int blinkCount = 0; // Initialize counter
+int blinkCount = 0;
+const int potPin = A0; // Potentiometer connected to Analog pin A0
 
 void setup() {
   pinMode(13, OUTPUT);
-  Serial.begin(9600); // Start serial communication
+  Serial.begin(9600);
 }
 
 void loop() {
+  int potValue = analogRead(potPin); // Read potentiometer (0 to 1023)
+
   digitalWrite(13, HIGH);
-  delay(500);
+  delay(potValue); // Speed controlled by potentiometer
   digitalWrite(13, LOW);
-  delay(500);
+  delay(potValue);
 
   blinkCount++;
   Serial.print("Blink count: ");
