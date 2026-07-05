@@ -15,3 +15,9 @@ When to use it: You use git fetch when you want to see what changes have been ma
 What it does: This command is an automated combination of two steps: it first runs git fetch to download the latest updates from the remote repository, and then it immediately runs git merge to fuse those remote changes directly into your current local active branch.
 
 When to use it: You use git pull frequently throughout the day when you are ready to update your local files with the latest progress from GitHub. It keeps your local repository synchronized with your team, though you should ensure your local changes are committed first to avoid sudden merge conflicts.
+
+
+# Theory: The .gitignore File
+A .gitignore file is a text file placed in the root directory of a Git repository. It tells Git explicitly which files or folders to ignore, meaning Git will deliberately skip tracking changes to them.
+
+This prevents large, temporary, or machine-specific compiled build files from cluttering your commit history and bloating your remote GitHub storage.
