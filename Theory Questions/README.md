@@ -1,4 +1,6 @@
 
+# All Theory Questions are answered Here
+
 # Theory: Difference Between Git Clone, Git Fetch, and Git Pull
 
 # Git Clone
@@ -95,5 +97,78 @@ These communication pins allow the Arduino UNO to exchange data with sensors, di
 A smart weather station uses I2C or SPI communication to collect data from multiple sensors and display the information or send it to the cloud.
 
 
+# Q19. Difference Between `analogWrite()` and `analogRead()` in Arduino
 
+## `analogRead()`
+**Explanation:**  
+`analogRead()` is used to read an analog voltage from an input pin (A0–A5 on Arduino UNO). It converts the input voltage (0V–5V) into a digital value between **0 and 1023** using the built-in Analog-to-Digital Converter (ADC).
+
+**Practical IoT Example:**  
+A smart irrigation system uses `analogRead()` to read data from a soil moisture sensor. Based on the sensor value, the Arduino decides whether the plants need watering.
+
+---
+
+## `analogWrite()`
+**Explanation:**  
+`analogWrite()` is used to generate a **PWM (Pulse Width Modulation)** signal on PWM-supported pins (3, 5, 6, 9, 10, and 11). It accepts values from **0 to 255** to control the duty cycle, simulating an analog output.
+
+**Practical IoT Example:**  
+A smart lighting system uses `analogWrite()` to adjust the brightness of an LED automatically depending on the surrounding light level.
+
+---
+
+## What is PWM and Why is it Used?
+**PWM (Pulse Width Modulation)** is a technique that rapidly switches a digital signal ON and OFF to create the effect of different voltage levels. By changing the duty cycle, Arduino can control devices that require variable power.
+
+**Why it is used:**
+- Control LED brightness.
+- Control DC motor speed.
+- Drive servos and other actuators efficiently.
+- Save power while providing smooth output control.
+
+**Practical IoT Example:**  
+A smart fan controller uses PWM to automatically adjust the fan speed according to the room temperature, reducing energy consumption.
+
+---
+
+# Q20. `setup()` and `loop()` Functions in Arduino
+
+## `setup()`
+**Explanation:**  
+The `setup()` function runs **only once** when the Arduino is powered on or reset. It is used to initialize pins, start serial communication, and configure sensors or modules before the main program begins.
+
+**Example Tasks:**
+- Set pin modes using `pinMode()`.
+- Start serial communication using `Serial.begin()`.
+- Initialize sensors and communication modules.
+
+---
+
+## `loop()`
+**Explanation:**  
+The `loop()` function runs **continuously** after `setup()` finishes. It contains the main logic of the program, such as reading sensors, processing data, and controlling outputs.
+
+**Example Tasks:**
+- Read sensor values.
+- Turn LEDs ON or OFF.
+- Send sensor data to the cloud.
+- Control motors and actuators.
+
+---
+
+## What Happens if You Put a Long `delay()` Inside `loop()`?
+
+A long `delay()` pauses the entire program for the specified time. During this period, the Arduino cannot read sensors, respond to button presses, or perform any other tasks. This makes the system less responsive and may cause important sensor events to be missed.
+
+**Example:**  
+If a temperature sensor is checked only every 10 seconds because of `delay(10000)`, sudden temperature changes will not be detected immediately.
+
+---
+
+## Non-Blocking Alternative
+
+The recommended non-blocking alternative is to use the **`millis()`** function. Instead of stopping the program, `millis()` tracks elapsed time while allowing the Arduino to continue reading sensors and performing other tasks simultaneously.
+
+**Benefit:**  
+Using `millis()` makes IoT systems more responsive because multiple tasks can run without blocking the execution of the program.
 
