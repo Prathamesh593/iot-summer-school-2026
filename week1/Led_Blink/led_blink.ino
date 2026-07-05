@@ -1,5 +1,12 @@
+/*
+ * Author: Prathamesh Naik
+ * Date: 5th July 2026
+ * Description: LED blink controller with dynamic potentiometer speed 
+ * control and serial tracking for Git assignment.
+ */
+
 int blinkCount = 0;
-const int potPin = A0; // Potentiometer connected to Analog pin A0
+const int potPin = A0;
 
 void setup() {
   pinMode(13, OUTPUT);
@@ -7,10 +14,10 @@ void setup() {
 }
 
 void loop() {
-  int potValue = analogRead(potPin); // Read potentiometer (0 to 1023)
+  int potValue = analogRead(potPin);
 
   digitalWrite(13, HIGH);
-  delay(potValue); // Speed controlled by potentiometer
+  delay(potValue);
   digitalWrite(13, LOW);
   delay(potValue);
 
