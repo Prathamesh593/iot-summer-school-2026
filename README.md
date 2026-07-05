@@ -1,4 +1,4 @@
-# iot-summer-school-2026
+# IOT-Summer-School-2026
 IIT Jammu Summer School
 
 Name: Prathamesh Naik
