@@ -1,5 +1,12 @@
-# Branch Notes
+# Branching Strategy Notes
 
-- dev: Used for development and integration of new features.
-- sensor-module: Used for sensor-related code and testing.
-- wireless-module: Used for wireless communication features (Wi-Fi/Bluetooth).
+- main: Stable branch containing finalized and merged work.
+- dev: Integration branch for combining module updates and maintaining planning/docs.
+- sensor-module: Development branch for sensor-related features (data reading, parsing, and handling).
+- wireless-module: Development branch for wireless communication features (connectivity and transmission logic).
+
+Branch graph screenshot:
+https://github.com/Prathamesh593/iot-summer-school-2026/network
+
+Merge commit URL (from main history):
+https://github.com/Prathamesh593/iot-summer-school-2026/commits/main
