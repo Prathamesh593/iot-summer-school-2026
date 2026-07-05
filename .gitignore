@@ -67,3 +67,24 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+
+# === Arduino Compiled Outputs ===
+*.hex
+*.elf
+*.bin
+*.o
+*.d
+
+# === IDE Configuration Folders ===
+.vscode/
+.idea/
+build/
+bin/
+out/
+
+# === OS-Specific System Files ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
