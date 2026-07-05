@@ -21,3 +21,79 @@ When to use it: You use git pull frequently throughout the day when you are read
 A .gitignore file is a text file placed in the root directory of a Git repository. It tells Git explicitly which files or folders to ignore, meaning Git will deliberately skip tracking changes to them.
 
 This prevents large, temporary, or machine-specific compiled build files from cluttering your commit history and bloating your remote GitHub storage.
+
+
+# Q13. Arduino Pin Types
+
+## 1. Digital Input
+**Explanation:**  
+Digital input pins are used to read signals that are either **HIGH (5V)** or **LOW (0V)** from external devices.
+
+**Example:**  
+- Push button connected to **Pin 2**
+
+**Real IoT Use Case:**  
+A smart doorbell uses a digital input pin to detect when the doorbell button is pressed and sends a notification to the homeowner.
+
+---
+
+## 2. Digital Output
+**Explanation:**  
+Digital output pins are used to send **HIGH** or **LOW** signals to control electronic components.
+
+**Example:**  
+- LED connected to **Pin 13**
+
+**Real IoT Use Case:**  
+A smart home lighting system uses digital output pins to switch LEDs or relays ON and OFF remotely.
+
+---
+
+## 3. Analog Input
+**Explanation:**  
+Analog input pins (**A0–A5**) read varying voltage levels between **0V and 5V** and convert them into digital values ranging from **0 to 1023**.
+
+**Example:**  
+- Potentiometer connected to **A0**
+
+**Real IoT Use Case:**  
+A smart irrigation system uses a soil moisture sensor connected to an analog input pin to monitor soil conditions and automatically control watering.
+
+---
+
+## 4. PWM (Pulse Width Modulation) Output
+**Explanation:**  
+PWM pins (**3, 5, 6, 9, 10, and 11**) generate pulse signals that simulate analog output, allowing control of LED brightness or motor speed.
+
+**Example:**  
+- LED connected to **Pin 9** with adjustable brightness
+
+**Real IoT Use Case:**  
+A smart street lighting system adjusts LED brightness automatically based on ambient light conditions to save energy.
+
+---
+
+## 5. I2C/SPI Communication Pins
+**Explanation:**  
+These communication pins allow the Arduino UNO to exchange data with sensors, displays, and other peripherals.
+
+### I2C Pins
+- **SDA:** A4
+- **SCL:** A5
+
+### SPI Pins
+- **SS:** Pin 10
+- **MOSI:** Pin 11
+- **MISO:** Pin 12
+- **SCK:** Pin 13
+
+**Example:**  
+- OLED Display
+- MPU6050 Accelerometer Sensor
+
+**Real IoT Use Case:**  
+A smart weather station uses I2C or SPI communication to collect data from multiple sensors and display the information or send it to the cloud.
+
+
+
+
