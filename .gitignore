@@ -88,3 +88,5 @@ out/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+config.h
